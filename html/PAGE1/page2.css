@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px; 
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 50px; 
+}
+
+.left-icon {
+  display: flex;
+  align-items: center;
+
+  gap: 100px;
+}
+
+.a-link {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Add some spacing between the links */
+}
+
+.a-link a {
+  text-decoration: none;
+  color: #333;
+}
